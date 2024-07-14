@@ -8,21 +8,18 @@
         body {
             font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
-            align-items: center;
             flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
+            align-items: center;
             background-color: #f0f0f0;
+            margin: 0;
         }
         h1 {
             text-align: center;
         }
         table {
             border-collapse: collapse;
-            width: 80%;
             margin: 20px 0;
-            border: 1px solid black;
+            width: 80%;
         }
         th, td {
             border: 1px solid black;
@@ -53,19 +50,19 @@
 
     <table id="table-1" class="middle">
         <tr>
-            <td id="t11">Cell 1</td>
-            <td id="t12">Cell 2</td>
-            <td id="t13" class="center right">Cell 3</td>
+            <td id="t11">left</td>
+            <td id="t12">center</td>
+            <td id="t13" class="center right">right</td>
         </tr>
         <tr class="center">
-            <td>Cell 4</td>
-            <td>Cell 5</td>
-            <td class="right">Cell 6</td>
+            <td>left</td>
+            <td>center</td>
+            <td class="right">right</td>
         </tr>
         <tr>
-            <td>Cell 7</td>
-            <td>Cell 8</td>
-            <td>Cell 9</td>
+            <td>left</td>
+            <td>center</td>
+            <td class="right">right</td>
         </tr>
     </table>
 
@@ -90,4 +87,47 @@
             <td>Cell 13</td>
         </tr>
         <tr>
-  
+            <td>Cell 14</td>
+            <td>Cell 15</td>
+            <td>Cell 16</td>
+            <td>Cell 17</td>
+            <td>Cell 18</td>
+            <td>Cell 19</td>
+        </tr>
+        <tr>
+            <td>Cell 20</td>
+            <td>Cell 21</td>
+            <td>Cell 22</td>
+            <td>Cell 23</td>
+            <td>Cell 24</td>
+            <td>Cell 25</td>
+        </tr>
+        <tr>
+            <td>Cell 26</td>
+            <td>Cell 27</td>
+            <td>Cell 28</td>
+            <td>Cell 29</td>
+            <td>Cell 30</td>
+            <td>Cell 31</td>
+        </tr>
+    </table>
+
+    <table id="table-3" class="middle">
+        <tr class="green">
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td id="t-image" colspan="3">
+                <img src="https://via.placeholder.com/300x150" alt="Placeholder Image">
+            </td>
+        </tr>
+        <tr class="blue">
+            <td>Cell 4</td>
+            <td>Cell 5</td>
+            <td>Cell 6</td>
+        </tr>
+    </table>
+</body>
+</html>
